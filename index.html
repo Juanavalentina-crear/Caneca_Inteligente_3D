@@ -7,12 +7,12 @@ const SmartBin3DSimulator = () => {
   const [isScanning, setIsScanning] = useState(false);
   const [scanResult, setScanResult] = useState(null);
   const [binStats, setBinStats] = useState({
-    organic: 35,
-    plastic: 45,
-    paper: 60,
-    glass: 20,
-    metal: 30,
-    unknown: 15
+    organic: 0,
+    plastic: 0,
+    paper: 0,
+    glass: 0,
+    metal: 0,
+    unknown: 0
   });
   const [alerts, setAlerts] = useState([]);
   const [rotation, setRotation] = useState(0);
